@@ -1,0 +1,20 @@
+.page-title {
+  font-size: 24px;
+}
+
+@media (min-width: 375px) {
+  .page-title {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 600px) {
+  .page-title {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .page-title {
+    font-size: 38px;
+  }
+}
