@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/anime-quotes/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime Quotes</title>
+    
+    <script type="module" crossorigin src="/anime-quotes/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/anime-quotes/assets/vendor-7af2edd1.js">
+    <link rel="stylesheet" href="/anime-quotes/assets/vendor-e5212ee8.css">
+    <link rel="stylesheet" href="/anime-quotes/assets/index-0c0dfaaa.css">
+  </head>
+  <body>
+    <section>
+  <h1 class="page-title">Find your favourite character's quotes here</h1>
+</section>
+
+    <section class="search-form-section">
+  <form class="js-form search-form" autocomplete="off">
+    <input
+      class="search-input"
+      id="search"
+      type="text"
+      name="searchInput"
+      placeholder="Search . . ."
+      required
+    />
+
+    <fieldset>
+      <legend class="options-box-title">Search by:</legend>
+      <label class="rad-label">
+        <input
+          type="radio"
+          class="rad-input"
+          name="searchOption"
+          checked
+          value="character"
+        />
+        <div class="rad-design"></div>
+        <div class="rad-text">Character</div>
+      </label>
+
+      <label class="rad-label">
+        <input
+          type="radio"
+          class="rad-input"
+          name="searchOption"
+          value="title"
+        />
+        <div class="rad-design"></div>
+        <div class="rad-text">Title</div>
+      </label>
+    </fieldset>
+
+    <button class="button-75" role="button" type="submit">
+      <span class="text"> Search </span>
+    </button>
+  </form>
+</section>
+
+    <section>
+  <div class="wrapper">
+    <div class="scroll-cards js-quotes"></div>
+  </div>
+  <div class="scroll-link is-hidden"></div>
+</section>
+
+    <canvas></canvas>
+    
+  </body>
+</html>
