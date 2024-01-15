@@ -156,8 +156,7 @@
   transition: all 200ms;
 }
 
-.button-75:hover span,
-.button-75:focus span {
+.button-75:hover span {
   transform: scale(0.9);
   opacity: 0.75;
 }
